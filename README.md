@@ -1,48 +1,51 @@
-**Piano Play App Documentation**
+**Piano Playing App Documentation:**
 
-*Overview:*
+**Overview:**
+The Piano Playing App is a simple and interactive web application that allows users to play virtual piano sounds using their computer keyboard. Developed with HTML, CSS, and JavaScript, this app provides an enjoyable and accessible way to explore the world of piano music.
 
-The Piano Play App is a simple and interactive application developed using React. It allows users to play piano sounds by interacting with the white keys while also providing the ability to end the sound playback using the black keys.
+**Features:**
+- Play piano sounds with the white keys on your keyboard.
+- Stop the sound playback using the black keys.
+- User-friendly interface with responsive design.
 
-*Getting Started:*
+**Requirements:**
+To run the Piano Playing App on your system, you need a modern web browser like Google Chrome, Mozilla Firefox, or Microsoft Edge.
 
-To use the Piano Play App, follow these simple steps:
+**Installation Process:**
+Follow these steps to clone the repository and install the app on your system:
 
 1. **Clone the Repository:**
-   - Open your terminal or command prompt.
-   - Run the following command to clone the repository:
-     ```
-     git clone https://github.com/your-username/piano-play-app.git
-     ```
-   - Navigate into the project directory:
-     ```
-     cd piano-play-app
-     ```
+   Open your terminal or command prompt and run the following command:
 
-2. **Install Dependencies:**
-   - Make sure you have Node.js installed on your system.
-   - Run the following command to install the required dependencies:
-     ```
-     npm install
-     ```
+   ```
+   git clone https://github.com/Ijema/piano-playing-app.git
+   ```
 
-3. **Run the App:**
-   - After the installation is complete, start the app with the following command:
-     ```
-     npm start
-     ```
-   - The app will be accessible in your web browser at `http://localhost:3000/`.
 
-*Usage:*
+2. **Navigate to the App Directory:**
+   Move to the app's directory using the following command:
 
-- Once the app is running, use your computer keyboard to interact with the piano keys:
-  - White keys (A to K) trigger different piano sounds.
-  - Black keys can be used to end the sound playback.
+   ```
+   cd piano-playing-app
+   ```
 
-*Contributing:*
+3. **Open the App:**
+   Open the `index.html` file in your preferred web browser.
 
-Feel free to contribute to the development of the Piano Play App by submitting issues or creating pull requests.
+   ```
+   open index.html  # For Mac users
+   ```
 
-If you encounter any issues or have questions, please check the documentation or create an issue on the GitHub repository for assistance.
+   or
 
-Happy playing! 🎹🎶
+   ```
+   start index.html  # For Windows users
+   ```
+
+4. **Explore and Enjoy:**
+   Start playing the piano by pressing the corresponding keys on your keyboard. Use the white keys to initiate sounds and the black keys to stop the sound playback.
+
+**Contributions:**
+Feel free to contribute to the development of this app by submitting pull requests. You can report any issues or suggest improvements by opening an issue on the GitHub repository.
+
+Happy Piano Playing! 🎹
