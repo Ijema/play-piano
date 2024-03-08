@@ -6,8 +6,8 @@ var audioPlayer = new Audio();
 
 
 for (let i = 0; i < whitePianoButtons.length; i++) {
-    whitePianoButtons[i].addEventListener("click", function (e) {
-        var whitePianoInnerHtml = e.innerHTML;
+    whitePianoButtons[i].addEventListener("click", function () {
+        var whitePianoInnerHtml = this.innerHTML;
         
         // Reset currentTime for the audioPlayer
         audioPlayer.currentTime = 0;
