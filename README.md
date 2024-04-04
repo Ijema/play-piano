@@ -21,7 +21,10 @@ Follow these steps to clone the repository and install the app on your system:
    git clone https://github.com/Ijema/piano-playing-app.git
    ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1531ae0b029aa726775f040cf8a7fa2f18efde03
 2. **Navigate to the App Directory:**
    Move to the app's directory using the following command:
 
